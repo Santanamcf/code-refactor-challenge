@@ -7,52 +7,51 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*formats the header overall */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*formats just the h1 header*/
 header h1 {
     display: inline;
     font-size: 48px;
 }
-
+/*changes properties of "seo"*/
 header h1 .seo {
     color: #d9dcd6;
+    display: inline-block;
 }
-
+/*formats the navigation bar*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    display: inline;
 }
-
+/*gets rid of bullet points in navigation bar*/
 header nav ul {
     list-style-type: none;
-    text-align: right;
 }
-
+/*formats the list within the navigation bar*/
 header nav ul li {
-    display: inline;
+    display: inline-block;
     margin-left: 25px;
     text-align: right;
 }
-
+/*formats the anchor color*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*sets font size*/
 p {
     font-size: 16px;
 }
-
+/*adds file path for meeting image and styles it*/
 .hero {
     height: 800px;
     width: 100%;
@@ -61,23 +60,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*sets margin spacing for image*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*sets margin spacing for image*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*formats texts and images in content class*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*formats content in benefits class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,55 +87,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*formats heading, image, and description*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*formats heading image and description*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*formats heading image and description*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*formats text and margin*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*formats the text and margin*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*formats the text and margin*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*formats the image*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*formats the image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*formats the image*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*formats the image header and description*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -145,7 +144,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*formats the image header and description*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -154,7 +153,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*formats the image header and description*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -163,41 +162,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*sets max image height*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/*sets max image height*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/*sets max image height*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*formats header*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*formats header*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*formats header*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*formats footer*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*sets font for footer*/
 footer h3 {
     font-size: 20px;
 }
